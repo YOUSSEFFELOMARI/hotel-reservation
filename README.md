@@ -45,7 +45,12 @@ src/
 ```
 
 ---
+## Screenshots of printAll(...) and printAllUsers(...)
+result.
 
+![img.png](img.png)
+
+---
 Built by Youssef for the SkyPay technical test.
 
 ## Design Question
@@ -65,3 +70,4 @@ Yes, this is a good design. It ensures historical consistency by storing a snaps
 room details (type, price) in the booking at the time of reservation. An alternative 
 would be referencing the live Room object, but this risks modifying past bookings if 
 the room is updated later.
+
